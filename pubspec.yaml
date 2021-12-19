@@ -1,0 +1,46 @@
+name: tunnel_funnel
+description: Tunnel the funnel.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flame: 1.0.0
+  hive: 2.0.4
+  path_provider: 2.0.3
+  flame_forge2d: ^0.8.3
+  provider: 6.0.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  hive_generator: 1.1.0
+  build_runner: 2.1.2
+  flutter_test:
+    sdk: flutter
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/player/
+    - assets/images/parallax/
+    - assets/images/tiles/
+    - assets/images/input/
+
+
+
+ 
